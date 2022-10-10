@@ -17,7 +17,7 @@ function Register(){
     const [email,setEmail] = useState("");
 
     const errors = {
-      pass: "invalid password",
+      pass: "password mismatch",
       noerr: ""
     };
 

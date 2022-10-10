@@ -12,6 +12,10 @@
   cursor: pointer;
 }
 
+.username{
+  font-weight: bold;
+}
+
 .background {
   background-color: orange;
   background-blend-mode: darken;

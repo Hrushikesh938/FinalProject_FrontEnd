@@ -32,6 +32,9 @@ export default function Home(){
         <>
         <Header/>
         <div className='all-products-contain'>
+          <div className='menu'>
+            <h1 className='menuTitle'>Our Menu</h1>
+          </div>
               {items && items.map((item,i)=>(  <Product
                     data={item}
                     key={i}

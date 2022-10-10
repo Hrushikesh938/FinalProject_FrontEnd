@@ -123,7 +123,7 @@ const Cart = () => {
         
             </Container>}
 
-            {!(getCookie("accessToken")) && navigate("/home")}
+            {!(getCookie("accessToken")) && <center><h1>Page Not Found</h1></center>}
 
                  
        </>

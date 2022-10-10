@@ -46,7 +46,7 @@ function Header(){
                     <li><a href="home">Home</a></li>
                     <li><a href="about-us">About Us</a></li>
                     
-                   <li> <label>Welcome {username} ! </label></li>
+                   <li> <label className='username'>Welcome {username} ! </label></li>
                 </ul>
                 {/* <label>Welcome {username}</label> */}
                 <a href="cart"><button class="btn btn-sm">Cart({totalItems})</button></a>
